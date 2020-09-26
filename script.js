@@ -3,7 +3,7 @@ $(document).ready(function () {
     console.log(moment().format());
 
 
-    $("#date").text(moment().format("dddd, MMMM Do YYYY, h:mm:ss a"));
+    $("#date").text(moment().format("dddd, MMMM Do"));
 
 
     // Current Time
