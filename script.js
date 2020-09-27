@@ -12,5 +12,16 @@ $(document).ready(function () {
         let currentTime = moment().format('h:mm:ss')
         $("#time").text(currentTime)
     }
+    
+         $("#save").click(function () { 
+        
+        // val() method is used to get the values from  
+       // textarea and stored in txt variable 
+        var savetext = $("#inputtext").val(); 
+        display(savetext); 
+    }); 
+
+
 
 })
+
